@@ -1,11 +1,8 @@
-# FrontendBlok Broker App with Vue3 + TypeScript + Vite + Tailwind CSS
+# Broker App
+Vue3 + TypeScript + Vite + Tailwind CSS
 
-Project setuo
--------------------------
-
-<yarn >  
+## Project setup
+```yarn``` 
   
-Development
--------------------------
-
-<yarn dev >  
+## Development
+```yarn dev``` 
