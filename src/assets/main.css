@@ -1,0 +1,82 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    @apply bg-gray-100
+}
+#app {
+    @apply mb-6
+}
+.container {
+    @apply mx-auto px-4
+}
+.header {
+    @apply flex justify-between items-center py-8
+}
+.logo {
+    @apply text-4xl
+}
+.btn { 
+    @apply border-2 rounded-md border-blue-500 text-blue-800 px-8 py-4 font-medium
+}
+.dashboard-info {
+    @apply flex justify-between items-center space-x-4 mb-6
+}
+.dashboard-info__item {
+    @apply bg-white rounded-md flex-1 px-8 py-4 flex items-center
+}
+.dashboard-info__icon {
+    @apply bg-blue-100 w-14 h-14 rounded-full flex items-center justify-center mr-4
+}
+.dashboard-info__title {
+    @apply text-2xl
+}
+.dashboard-info__title span {
+    @apply block font-normal text-sm text-gray-500
+}
+.table {
+    @apply min-w-full mb-6
+ }
+ .table thead th {
+    @apply px-6 py-3 border-b border-gray-200 bg-gray-100 text-left text-xs leading-4 font-medium text-gray-500 uppercase tracking-wider
+ }
+ .table thead th:last-child {
+     @apply px-6 py-3 border-b border-gray-200 bg-gray-100 text-right
+ }
+ .table tbody {
+    @apply bg-white
+ }
+ .table tbody td{
+    @apply px-6 py-4 border-b border-gray-200
+ }
+ .table tbody td:last-child{
+    @apply text-right text-sm leading-5 font-medium
+ }
+ .btn-link {
+    @apply text-indigo-600 hover:text-indigo-900
+ }
+ .title {
+    @apply text-lg font-medium mb-4
+ }
+ .user-profile {
+    @apply flex items-start space-x-4
+ }
+ .user-profile-item {
+    @apply bg-white rounded-md px-8 py-4
+ }
+ .user-profile-info {
+     @apply w-4/12
+ }
+ .user-profile__title {
+    @apply text-xl font-medium mb-2
+ }
+ .user-profile__email {
+    @apply text-gray-500 text-sm
+ }
+ .user-profile__email > span:first-child {
+     @apply mr-2
+ }
+ .user-profile-data {
+    @apply w-8/12
+}
