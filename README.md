@@ -1,8 +1,12 @@
 # Broker App
-Vue3 + TypeScript + Vite + Tailwind CSS
+Vue 3 + TypeScript + Vite + Tailwind CSS
 
-## Project setup
-```yarn``` 
-  
-## Development
-```yarn dev``` 
+### Setup project
+```
+yarn
+```
+
+### Development Mode
+```
+yarn dev
+```
